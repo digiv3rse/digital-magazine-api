@@ -6,11 +6,10 @@
   "scripts": {
     "develop": "strapi develop",
     "start": "strapi start",
-    "build": "strapi build",
+    "build": "NODE_ENV=prod strapi build",
     "strapi": "strapi",
     "heroku-prebuild": "node scripts/postgres-env.js"
   },
-  "devDependencies": {},
   "dependencies": {
     "knex": "0.21.14",
     "pg": "8.5.1",
