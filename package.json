@@ -5,8 +5,8 @@
   "description": "Strapi API for @edgarlr/magazine",
   "scripts": {
     "develop": "strapi develop",
-    "start": "strapi start",
-    "build": "NODE_ENV=prod strapi build",
+    "start": "npx strapi start",
+    "build": "NODE_ENV=prod npx strapi build",
     "strapi": "strapi",
     "heroku-prebuild": "node scripts/postgres-env.js"
   },
